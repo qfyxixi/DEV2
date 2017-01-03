@@ -34,8 +34,6 @@ refrence :[*linux ps command*](http://blog.chinaunix.net/uid-25681671-id-3201927
 repalce from line 1 to the end  
 ```1,$s/abc/xyz/g```
 
-###find the biggest usage file ###
-```du -sh * ```
 
 ### file system ###
 ├──  **/**         root directory  
