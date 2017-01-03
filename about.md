@@ -1,4 +1,8 @@
-## xiameng weiyang ##
+---
+layout: page
+title: About
+permalink: /about/
+---
 
 ### origin ###
 
