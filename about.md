@@ -4,18 +4,12 @@ title: About
 permalink: /about/
 ---
 
-### origin ###
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
+You can find the source code for the Jekyll new theme at:
+{% include icon-github.html username="jekyll" %} /
+[minima](https://github.com/jekyll/minima)
 
-	To be better than yesterday!
-
-### content ###
-1. test skill
-2. python
-3. shell
-4. java
-5. linux
-6. http
-7. apache
-8. git
-9. good books
+You can find the source code for Jekyll at
+{% include icon-github.html username="jekyll" %} /
+[jekyll](https://github.com/jekyll/jekyll)
