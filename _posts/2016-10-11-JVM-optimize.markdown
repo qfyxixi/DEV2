@@ -46,7 +46,7 @@
 - Recycling option  
 	**Parallel collector is mainly aimed at reaching a certain throughput**  
 	1)Configuring parallel collectors for younger generation  
-	``` java -Xmx3800m -Xms3800m -Xmn2g -Xss128k -XX:+UseParallelGC -XX:ParallelGCThreads=20 ```
+	``` java -Xmx3800m -Xms3800m -Xmn2g -Xss128k -XX:+UseParallelGC -XX:ParallelGCThreads=20```
 
 	-XX:+UseParallelGC：Select parallel collector for young  
 	-XX:ParallelGCThreads：Set number of threads in parallel collector  
@@ -55,7 +55,8 @@
 	``` java -XX:+UseParallelOldGC ```  
 	-XX:+UseParallelOldGC:Select parallel collector for old
   
-	3)config max time of young garbage collection
+	3)config max time of young garbage collection  
+
 	``` java -Xmx3550m -Xms3550m -Xmn2g -Xss128k -XX:+UseParallelGC  -XX:MaxGCPauseMillis=100 ```  
 	-XX:MaxGCPauseMillis=100：  
 	If this time is not met, JVM automatically adjusts the young generation size to meet this value  
