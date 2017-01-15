@@ -18,12 +18,10 @@
   	add webdriver.gecko.driver 配置，在网上看了下，需要这么改，添加进代码
 	
 	---
-
 		System.setProperty("webdriver.gecko.driver", "pathTogeckodriver");
 		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 		capabilities.setCapability("marionette", true);
 		WebDriver dr = new FirefoxDriver(capabilities);
-
 	---
 
 	question2：
