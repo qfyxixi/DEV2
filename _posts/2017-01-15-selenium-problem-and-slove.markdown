@@ -6,8 +6,10 @@
 	---
  		Webdriver Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms  
 
-	--- 
-  	slove：  
+	---   
+
+  	
+	slove：  
   	firefox47+ 需要 selenium 3.x
 
 2. how to use webdriver.gecko.driver on selenium3.0  
@@ -30,7 +32,7 @@
 	question2：
 	
 	---
-		pathTogeckodriver找不到，找了很久都没有找到叫哪个driver叫这个名字：pathTogeckodriver 
+		pathTogeckodriver找不到，找了很久都没有找到哪个driver叫这个名字：pathTogeckodriver 
 
 	--- 
 
