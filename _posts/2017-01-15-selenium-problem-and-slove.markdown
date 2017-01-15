@@ -2,10 +2,10 @@
 
 1. selenium 和 browser 版本不兼容  
 	
-    question： 
+    question：
 
  	---
-  		Webdriver Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms  
+		Webdriver Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms
 
 	---
 
