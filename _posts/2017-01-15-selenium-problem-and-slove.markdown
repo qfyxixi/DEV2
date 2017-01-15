@@ -1,11 +1,12 @@
 ## Selenium运行遇到的问题 ##
 
-1. selenium 和 browser 版本不兼容  
-	
-    question：
+1. selenium 和 browser 版本不兼容   
+	question：  
 
- 	```Webdriver Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms```  
+	---
+ 		Webdriver Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms  
 
+	--- 
   	slove：  
   	firefox47+ 需要 selenium 3.x
 
