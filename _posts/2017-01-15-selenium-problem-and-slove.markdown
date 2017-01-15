@@ -23,9 +23,9 @@
 	slove：  
   	add webdriver.gecko.driver 配置，在网上看了下，需要这么改，添加进代码
 	
-	```System.setProperty("webdriver.gecko.driver", "pathTogeckodriver");```
-	```	DesiredCapabilities capabilities = DesiredCapabilities.firefox();```
-	```	capabilities.setCapability("marionette", true);```
+	```System.setProperty("webdriver.gecko.driver", "pathTogeckodriver");```  
+	```	DesiredCapabilities capabilities = DesiredCapabilities.firefox();```  
+	```	capabilities.setCapability("marionette", true);```  
 	```	WebDriver dr = new FirefoxDriver(capabilities);```
 	
 
@@ -57,8 +57,7 @@
 	(2)最后确定这是个issue，问题出在
 
 	---
-	
-	Calling driver.quit() fails on "Aborting on channel error."
+		Calling driver.quit() fails on "Aborting on channel error."
 
 	---
 	Final slove 0.1:  
